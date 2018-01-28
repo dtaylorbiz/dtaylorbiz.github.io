@@ -1,0 +1,141 @@
+.logo-text {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    width: 140px;
+
+    @include laptop {
+        padding-left: 15px;
+    }
+}
+.copyright-footer {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.footer-logo-section {
+    display: none;
+
+    @include laptop {
+        display: block;
+    }
+}
+.footer-logo-section-mobile {
+    margin: 25px auto 10px;
+
+    @include laptop {
+        display: none;
+    }
+
+    .footer-img {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .logo-text {
+        text-align: center;
+    }
+}
+.footer-location {
+    width: 100%;
+    text-align: center;
+
+    @include laptop {
+        width: 600px;
+        text-align: right;
+    }
+
+    @include desktop {
+        width: 700px;
+    }
+
+    .location-header {
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        padding-bottom: 5px;
+    }
+    .location-address {
+        font-size: 14px;
+    }
+    .social {
+        padding: 10px 0 0;
+
+        li {
+            display: inline-block;
+        	padding-right: 10px;
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+        .social-icon {
+            padding-left: 10px;
+        }
+    }
+
+}
+.site-footer {
+	padding: 10px 0;
+}
+.footer_section_mini {
+    margin: 15px 0 25px;
+    width: 100%;
+
+
+    @include laptop {
+        margin: 7px 0 0 12px;
+        width: auto;
+        border-right: 1px solid #979797;
+        padding-right: 15px;
+    }
+
+    @include desktop {
+        margin: 7px 0 0 25px;
+        padding-right: 35px;
+    }
+
+    &:last-child {
+        @include laptop {
+            border-right: none;
+        }
+    }
+
+    .location-address {
+        span {
+            display: block;
+        }
+    }
+}
+
+// Social Section
+.social_section {
+    background-color: $darkbrown;
+
+    ul {
+        text-align: center;
+        padding: 10px 0;
+
+        li {
+            display: inline-block;
+            padding-right: 15px;
+
+            @include laptop {
+                padding-right: 35px;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+
+            a {
+                color: $white;
+                cursor: pointer;
+
+                &:hover {
+                    color: $black;
+                }
+            }
+        }
+    }
+}

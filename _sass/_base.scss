@@ -1,0 +1,51 @@
+@import 'helper/mixins';
+@import 'helper/media_queries';
+@import 'helper/variables';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+// Reset some basic elements
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: 15px;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+// Basic styling
+body {
+    font-weight: 300;
+    color: #000 !important;
+    -webkit-text-size-adjust: 100%;
+}
+
+// Clearfix
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

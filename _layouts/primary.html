@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+
+        {% include header.html %}
+
+        <div class="se-pre-con"></div>
+        <!-- Hero -->
+        <section class="hero-bg-slider">
+            <div class="hero-bg" style="background-image:url('{{ page.slide1 }}');"></div>
+            <div class="hero-bg" style="background-image:url('{{ page.slide2 }}');"></div>
+            {% if page.slide3 %}
+                <div class="hero-bg" style="background-image:url('{{ page.slide3 }}');"></div>
+            {% endif %}
+            {% if page.slide4 %}
+                <div class="hero-bg" style="background-image:url('{{ page.slide4 }}');"></div>
+            {% endif %}
+        </section>
+
+        <section class="hero-bg-fixed clearfix" id="delayReveal">
+            <div class="frow centered">
+                <div class="hero-content">
+                    <div class="hero-logo">
+                        <img src="{{ page.masthead_logo }}" />
+                    </div>
+                    <div class="hero-logo-title">{{ page.masthead_title }}</div>
+                    <div class="copy copy-contained">{{ page.masthead_subtitle }}</div>
+                    <a class="home_cta" href="tel:8046431600" alt="Call Taylor's Barbershop to Book Now">
+                        <div>
+                            book now
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        {% include footer.html %}
+
+  </body>
+
+</html>

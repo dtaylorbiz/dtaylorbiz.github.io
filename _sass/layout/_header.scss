@@ -1,0 +1,207 @@
+.site-wrapper {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    @include desktop {
+        margin:0 75px;
+    }
+}
+.site-menu {
+    color: $black;
+    display: none;
+
+    @include laptop {
+        display: inline-block;
+    }
+
+    ul {
+        padding-left: 20px;
+
+        li {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            padding-right: 12px;
+            text-transform: uppercase;
+
+            @include desktop {
+                padding-right: 20px;
+            }
+
+            a {
+                color: $black;
+                cursor: pointer;
+                text-decoration: none;
+
+                &:hover {
+                    @extend %hover;
+                }
+            }
+        }
+    }
+}
+.site-logo {
+    display: inline-block;
+    position: relative;
+    z-index: 501;
+    width: 50px;
+
+    @include palm {
+        width: 65px;
+    }
+}
+.call_section {
+    display: none;
+    width: 28%;
+
+    @include laptop {
+        display: inline-block;
+    }
+
+    @include desktop {
+        max-width: 265px;
+    }
+}
+.call_now {
+    text-align: right;
+    text-transform: uppercase;
+}
+.logo-section {
+    width: 50%;
+    @include palm {
+        width: 70%;
+    }
+}
+.call_btn {
+    background: $black;
+    color: $white;
+    margin-left: 6px;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+.call_btn:hover {
+    cursor: pointer;
+}
+.call_icon {
+    padding-right: 8px;
+}
+.site-header {
+    padding: 10px 0;
+    position: relative;
+
+    @include laptop {
+        padding: 10px 0;
+    }
+}
+
+// Overlay
+#menu-container {
+	height: 50px;
+	position: relative;
+	width: 50px;
+}
+.menuButton {
+	background: transparent !important;
+	border: none !important;
+	color: #000 !important;
+	font-size: 48px !important;
+	height: 100% !important;
+	position: relative !important;
+	width: 100% !important;
+	margin-top: -12px;
+	font-weight: lighter;
+	-webkit-font-smoothing: antialiased;
+}
+.menuButton:active {
+	position: relative;
+	top: 1px;
+}
+.menuButton:hover {
+	-o-transition:.75s;
+    -ms-transition:.75s;
+    -moz-transition:.75s;
+    -webkit-transition:.75s;
+    transition:.75s;
+}
+.overlay {
+	background-color: rgba(201,179,136,0.97);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 500;
+}
+.overlay nav {
+	position: relative;
+}
+.overlay ul {
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	position: relative;
+}
+.overlay ul li {
+	margin:0;
+	padding: 0;
+	width: 100%;
+	padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include small {
+        padding-bottom: 30px;
+    }
+}
+.overlay ul li a {
+	color: $black;
+	font-size: 32px;
+    line-height: 1;
+	font-weight: bold;
+	text-decoration: none;
+
+    &:hover {
+        @extend %hover;
+    }
+
+	@include palm {
+		font-size: 48px;
+	}
+
+	@include tablet {
+		font-size: 60px;
+	}
+
+}
+.overlay-close {
+	background: url('../assets/img/icon_close.png') no-repeat center center !important;
+	background-size: contain !important;
+	border: none !important;
+	color: transparent !important;
+	height: 30px !important;
+	outline: none;
+	overflow: hidden !important;
+	text-indent: 200% !important;
+	width: 30px !important;
+	z-index: 100 !important;
+    margin: 7px 10px 0 0;
+}
+.overlay-data {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+}
+.overlay-open {
+	opacity: 1;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	visibility: visible;
+}
+
+// Mobile Menu
+.mobile_menu {
+    @include laptop {
+        display: none;
+    }
+}

@@ -1,0 +1,116 @@
+<div class="social_section">
+    <ul>
+        {% for item in site.data.social_media %}
+        <li><a href="{{ item.social_url }}" target="_blank"><i class="fa {{ item.social_channel_icon }}" aria-hidden="true"></i></a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<footer class="site-footer site-wrapper">
+    <div class="frow justify-between">
+        <div class="footer-logo-section">
+            <div class="frow justify-between">
+                <div class="footer-img">
+                    <a href="/"><img src="/assets/img/taylors-logo.png" width="50" alt="Taylor's Barbershop Logo" /></a>
+                </div>
+                <div>
+                    <div class="frow centered">
+                        <div class="logo-text">Taylor's Barbershop</div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-footer">
+                &copy; 2017. All Rights Reserved.
+            </div>
+        </div>
+        <div class="footer-location">
+            <div class="frow justify-end">
+                <div class="footer_section_mini">
+                    <div class="location-header">Make Appointment</div>
+                    <div class="location-address">
+                        <span>WALK-INS WELCOME</span>
+                        <span>804-643-1600</span>
+                    </div>
+                    <a class="footer_cta" href="tel:8046431600" alt="Call Taylor's Barbershop to Book Now">
+                        <div>
+                            call now
+                        </div>
+                    </a>
+                </div>
+                <div class="footer_section_mini">
+                    <div class="location-header">Hours of Operation</div>
+                    <div class="location-address">
+                        <span>Monday &mdash; 9A &ndash; 5P</span>
+                        <span>Tues &ndash; Fri  &mdash; 9A &ndash; 6P</span>
+                        <span>Saturday &mdash; 9A &ndash; 5P</span>
+                        <span>Sunday &mdash; Closed</span>
+                    </div>
+                </div>
+                <div class="footer_section_mini">
+                    <div class="location-header">Barbershop Location</div>
+                    <div class="location-address">
+                        <span>11 East Broad Street</span>
+                        <span>Richmond, VA 23219</span>
+                    </div>
+                    <a class="footer_cta" href="https://www.google.com/maps/dir//11+E+Broad+St,+Richmond,+VA+23219/@37.5451797,-77.4440815,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89b111395dd607b5:0x41fa64ffd739ee43!2m2!1d-77.4418875!2d37.5451797" target="_blank" alt="Get Driving Directions to Taylor's Barbershop">
+                        <div>
+                            get directions
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-logo-section-mobile potato">
+            <div class="footer-img">
+                <a href="/"><img src="/assets/img/taylors-logo.png" width="50" alt="Taylor's Barbershop Logo" /></a>
+            </div>
+            <div class="logo-text">Taylor's Barbershop</div>
+
+            <div class="copyright-footer">
+                &copy; 2017. All Rights Reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Javascript CDN -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script src="https://use.fontawesome.com/d476a27cae.js"></script>
+
+<!-- Slick Slider -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/slick/slick.js"></script>
+
+<!-- Scripts -->
+<script type="text/javascript" src="/js/main.js"></script>
+
+<!-- Scroll Reveal -->
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.potato', { duration: 1000});
+</script>
+
+<!-- Lightbox Gallery Script -->
+<script type="text/javascript" src="/js/Luminous.js"></script>
+<script>
+    new LuminousGallery(document.querySelectorAll('.gallery-demo'), {}, {
+    caption: function(trigger) {
+        return trigger.querySelector('img').getAttribute('alt');
+    }
+});
+</script>
+
+<!-- SnipCart -->
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="NjY0NDFiNWYtYWM2Zi00NDhkLTkxNWUtYmMzOWVlMzQyYTcy" id="snipcart"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112914861-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112914861-1');
+</script>

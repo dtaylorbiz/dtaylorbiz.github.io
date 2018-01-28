@@ -1,0 +1,51 @@
+<header class="site-header site-wrapper">
+    <div class="frow justify-between">
+        <div class="logo-section">
+            <div class="site-logo">
+                <a href="/"><img src="/assets/img/taylors-logo.png" alt="Taylor's Barbershop Logo" /></a>
+            </div>
+            <div class="site-menu">
+                <ul>
+                    {% for item in site.data.menu %}
+                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="call_section">
+            <div class="frow centered">
+                <div class="call_now">
+                    <!-- Call Today! -->
+                    <a class="call_btn" href="tel:8046431600" alt="Call Taylor's Barbershop to Book Now">
+                        <span class="call_icon"><img src="/assets/img/icon_phone2.png" width="11" /></span>804-643-1600
+                    </a>
+                </div>
+                <div class="call_now">
+                    <a class="call_btn snipcart-checkout" href="#" alt="Check shopping cart for Taylor's Barbershop">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <section class="mobile_menu">
+            <div id="menu-container" class="menu-btn"><button id="overlay-menu" type="button" class="menuButton">&equiv;</button></div>
+            <div class="overlay overlay-data noScroll">
+                <div class="site-header site-wrapper">
+                    <div class="frow justify-end">
+                        <button type="button" class="overlay-close">Close</button>
+                    </div>
+                </div>
+                <div class="frow centered mobile_menu_position">
+                    <nav>
+                        <ul>
+                            {% for item in site.data.menu %}
+                            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</header>
