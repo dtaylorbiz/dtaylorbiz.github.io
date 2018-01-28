@@ -1,7 +1,5 @@
 ---
-title: Home 1
 docs-question: To add a slide to the home page
 docs-category: home
 ---
-
-In siteleaf panel, select Pages.  Select About. Check out the metadata, 'about_video_id'.  Similar to changing the Noisy Films video, this has to be a vimeo link.  Here is an example vimeo link: https://vimeo.com/242484745.  For the metadata, only use the numbers from the link to replace in this metadata section. Select Save.
+In siteleaf panel, select Pages.  Select 'index.md'. Select 'New metadata field', type 'slide3'.  Add file location for image.  Background images should be 1920 x 1080px resolution.

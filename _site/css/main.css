@@ -369,7 +369,7 @@ body {
   .accordion-item.active .icon {
     background: #fefefe; }
     .accordion-item.active .icon:before {
-      background: #a1a9aa; }
+      background: #acbdc6; }
     .accordion-item.active .icon:after {
       width: 0; }
   .accordion-item .heading {
@@ -1096,7 +1096,7 @@ REUSABLE CLASSES
   .accordion-item.active .icon {
     background: #fefefe; }
     .accordion-item.active .icon:before {
-      background: #cca991; }
+      background: #c19695; }
     .accordion-item.active .icon:after {
       width: 0; }
   .accordion-item .heading {

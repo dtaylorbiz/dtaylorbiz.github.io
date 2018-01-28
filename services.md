@@ -1,9 +1,10 @@
 ---
-title: Taylor's Services
-permalink: "/services/"
 layout: fullpage
-'["//"]': 
-bg_header: "/assets/img/fullpage-header.jpg"
+title: Taylor's Services
+permalink: /services/
+
+[//]: #Header
+bg_header: /assets/img/fullpage-header.jpg
 ---
 
 <div class="fullpage_wrapper">
