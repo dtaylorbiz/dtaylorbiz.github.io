@@ -1,11 +1,11 @@
 ---
-title: Taylor's Services
-permalink: "/services/"
 layout: fullpage
-'["//"]': 
-bg_header: "/assets/img/fullpage-header.jpg"
----
+title: Taylor's Services
+permalink: /services/
 
+[//]: #Header
+bg_header: /assets/img/fullpage-header.jpg
+---    
 <div class="fullpage_wrapper">
     {%  include components/alpha_header.html
         alpha_header="A full service hair lounge for men, women &amp; kids"
@@ -23,20 +23,28 @@ bg_header: "/assets/img/fullpage-header.jpg"
     </div>
 </div>
 
-<!-- Services -->
 <div class="fullpage_wrapper_alpha">
     <div class="fullpage_wrapper">
 
-        {%  include components/services.html
-            service_header="barber services"
-            service_list="services_barbering"
-            anchor="barbering"
-        %}
+        <div class="services_section"  id="services">
+            <div class="services_header">barber services</div>
 
+            <ul class="potato">
+                <div class="frow justify-between">
+                    {% for item in site.data.services_barbering %}
+                    <li>
+                        {{ item.service }}
+                        <div>
+                            {{ item.description }}
+                        </div>
+                    </li>
+                    {% endfor %}
+                </div>
+            </ul>
+        </div>
     </div>
 </div>
 
-<!-- Barbers -->
 <div class="fullpage_wrapper">
     <div class="barbering_section">
 
