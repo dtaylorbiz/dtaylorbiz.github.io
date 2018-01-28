@@ -1,7 +1,14 @@
 ---
-title: Services 1
 docs-question: To add a barber at /services page
 docs-category: services
 ---
+In siteleaf panel, select Barbers. Click on Add New Barber in upper right hand corner.
 
-In siteleaf panel, select Pages.  Select About. Check out the metadata, 'about_video_id'.  Similar to changing the Noisy Films video, this has to be a vimeo link.  Here is an example vimeo link: https://vimeo.com/242484745.  For the metadata, only use the numbers from the link to replace in this metadata section. Select Save.
+Fill out the following variables.  There is placeholder text to guide you.
+
++ title
++ avatar
++ name
++ description
+
+When finished, click Save. Upper right hand corner.

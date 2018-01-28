@@ -1,9 +1,10 @@
 ---
-title: Taylor's Careers
-permalink: "/careers/"
 layout: fullpage
-'["//"]': 
-bg_header: "/assets/img/header_careers.jpg"
+title: Taylor's Careers
+permalink: /careers/
+
+[//]: #Header
+bg_header: /assets/img/header_careers.jpg
 ---
 
 <div class="fullpage_wrapper">
@@ -16,7 +17,7 @@ bg_header: "/assets/img/header_careers.jpg"
     <div class="navigation_section career_section">
         <div class="frow justify-between">
 
-            {% for item in site.data.careers %}
+            {% for item in site.careers %}
             <div class="career_icon potato">
                 <img src="/assets/img/career_icon.png" />
                 <div class="career_title">
