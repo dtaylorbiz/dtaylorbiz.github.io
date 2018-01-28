@@ -1,7 +1,7 @@
 ---
-layout: docs
-permalink: Docs
 title: Taylor Website Docs
+permalink: Docs
+layout: docs
 ---
 
 # Home Page
