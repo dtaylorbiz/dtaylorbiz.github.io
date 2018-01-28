@@ -369,7 +369,7 @@ body {
   .accordion-item.active .icon {
     background: #fefefe; }
     .accordion-item.active .icon:before {
-      background: #d5ca98; }
+      background: #a1a9aa; }
     .accordion-item.active .icon:after {
       width: 0; }
   .accordion-item .heading {
@@ -1045,20 +1045,143 @@ REUSABLE CLASSES
 .icon {
   text-align: center; }
 
-.docs_title {
-  font-size: 45px;
-  font-weight: bold;
-  border-bottom: 1px solid;
-  width: 90px; }
+.black_bg {
+  background: #000;
+  color: #fff; }
 
-.docs_subtitle {
-  padding-top: 30px;
-  font-size: 24px; }
+.docs_wrapper {
+  width: 75%;
+  margin: 100px auto; }
 
 .docs_masthead {
-  background: #bbb;
-  padding: 75px 0;
-  margin-bottom: 75px; }
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  width: 65%; }
+  .docs_masthead .docs_masthead_title {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  .docs_masthead p {
+    text-transform: initial;
+    font-size: 28px;
+    font-weight: 300; }
+    .docs_masthead p a {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px solid;
+      padding-bottom: 4px; }
+      .docs_masthead p a:hover {
+        color: #927238; }
+
+.accordion_wrapper {
+  margin-top: 150px; }
+  .accordion_wrapper .accordion_title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Helvetica Neue, Helvetica, sans-serif; }
+  .accordion_wrapper .accordion-group {
+    margin-bottom: 75px; }
+
+.accordion {
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto; }
+
+.accordion-item {
+  position: relative; }
+  .accordion-item.active .heading {
+    color: #fff; }
+  .accordion-item.active .icon {
+    background: #fefefe; }
+    .accordion-item.active .icon:before {
+      background: #cca991; }
+    .accordion-item.active .icon:after {
+      width: 0; }
+  .accordion-item .heading {
+    display: block;
+    text-transform: initial;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    position: relative;
+    padding: 1.5rem 0.5rem 1.5rem 3.5rem;
+    transition: 0.3s ease-in-out; }
+    @media screen and (min-width: 550px) {
+      .accordion-item .heading {
+        font-size: 22px; } }
+    @media screen and (min-width: 1440px) {
+      .accordion-item .heading {
+        font-size: 24px; } }
+    .accordion-item .heading:hover {
+      color: #927238; }
+      .accordion-item .heading:hover .icon:before, .accordion-item .heading:hover .icon:after {
+        background: #927238; }
+  .accordion-item .title {
+    margin-left: 20px;
+    color: #000;
+    text-decoration: none;
+    text-transform: initial;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: Helvetica Neue, Helvetica, sans-serif; }
+  .accordion-item .content {
+    display: none;
+    text-transform: initial;
+    font-weight: 300;
+    border: 1px solid;
+    padding: 5px 5px 5px 15px;
+    margin-top: 20px;
+    font-family: Helvetica Neue, Helvetica, sans-serif; }
+    @media screen and (min-width: 768px) {
+      .accordion-item .content {
+        margin-left: 5em; } }
+    .accordion-item .content p {
+      margin-top: 0;
+      font-size: 16px;
+      line-height: 1.4;
+      color: #000; }
+      @media screen and (min-width: 550px) {
+        .accordion-item .content p {
+          font-size: 18px; } }
+      @media screen and (min-width: 900px) {
+        .accordion-item .content p {
+          font-size: 22px; } }
+      @media screen and (min-width: 1440px) {
+        .accordion-item .content p {
+          font-size: 24px; } }
+      .accordion-item .content p img {
+        width: 100%; }
+    @media screen and (min-width: 900px) {
+      .accordion-item .content {
+        line-height: 1.75; } }
+  .accordion-item .icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #000;
+    border-radius: 30px;
+    transform: translateY(-50%); }
+    .accordion-item .icon:before, .accordion-item .icon:after {
+      content: '';
+      width: .75rem;
+      height: 0.15rem;
+      background: #000;
+      position: absolute;
+      border-radius: 3px;
+      left: 50%;
+      top: 50%;
+      transition: 0.3s ease-in-out;
+      transform: translate(-50%, -50%); }
+    .accordion-item .icon:after {
+      transform: translate(-50%, -50%) rotate(90deg);
+      z-index: -1; }
 
 .shop_section {
   margin: 100px 0 50px; }
