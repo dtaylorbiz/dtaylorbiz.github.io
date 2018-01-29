@@ -1,7 +1,8 @@
 ---
-title: Careers 2
 docs-question: To edit the job application
 docs-category: careers
 ---
+In siteleaf panel, select Settings.  Look for this variable:
++ taylors_job_application
 
-In siteleaf panel, select Pages.  Select About. Check out the metadata, 'about_video_id'.  Similar to changing the Noisy Films video, this has to be a vimeo link.  Here is an example vimeo link: https://vimeo.com/242484745.  For the metadata, only use the numbers from the link to replace in this metadata section. Select Save.
+update this information to reflect where the new job application link should point to.  Select Save.  This update will impact where the career items link to.

@@ -61,29 +61,29 @@ $helvetica: Helvetica Neue, Helvetica, sans-serif;
     }
 }
 
-.accordion_wrapper {
+.docs-accordion_wrapper {
     margin-top: 150px;
 
-    .accordion_title {
+    .docs-accordion_title {
         font-size: 28px;
         margin-bottom: 10px;
         text-transform: uppercase;
         font-weight: bold;
         font-family: $helvetica;
     }
-    .accordion-group {
+    .docs-accordion-group {
         margin-bottom: 75px;
     }
 }
 
 // FAQ Section -- Accordion
-.accordion {
+.docs-accordion {
     width: 100%;
     max-width: 75rem;
     margin: 0 auto;
 }
 
-.accordion-item {
+.docs-accordion-item {
     position: relative;
 
     &.active {
@@ -91,7 +91,7 @@ $helvetica: Helvetica Neue, Helvetica, sans-serif;
             color: $white;
         }
 
-        .icon {
+        .docs-icon {
             background: $ultralight;
 
             &:before {
@@ -104,7 +104,7 @@ $helvetica: Helvetica Neue, Helvetica, sans-serif;
         }
     }
 
-    .heading {
+    .docs-heading {
         display: block;
         text-transform: initial;
         text-decoration: none;
@@ -127,7 +127,7 @@ $helvetica: Helvetica Neue, Helvetica, sans-serif;
         &:hover {
             color: $darkbrown;
 
-            .icon {
+            .docs-icon {
                 &:before,
                 &:after {
                     background: $darkbrown;
@@ -135,7 +135,7 @@ $helvetica: Helvetica Neue, Helvetica, sans-serif;
             }
         }
     }
-    .title {
+    .docs-title {
         margin-left: 20px;
         color: $black;
         text-decoration: none;
@@ -144,7 +144,7 @@ $helvetica: Helvetica Neue, Helvetica, sans-serif;
         font-size: 24px;
         font-family: $helvetica;
     }
-	.content {
+	.docs-content {
         display: none;
         text-transform: initial;
         font-weight: 300;
@@ -185,7 +185,7 @@ $helvetica: Helvetica Neue, Helvetica, sans-serif;
         }
     }
 
-    .icon {
+    .docs-icon {
         display: block;
         position: absolute;
         top: 50%;

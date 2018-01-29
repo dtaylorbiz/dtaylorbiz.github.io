@@ -1,55 +1,71 @@
----
+# Site settings
 title: Taylor's Barbershop
-timezone: UTC
-collections:
-  barbers:
-    title: Barbers
-    output: false
-  careers:
-    title: Careers
-    output: false
-  docs:
-    title: Docs
-    output: false
-  posts:
-    title: Posts
-    output: true
-  products:
-    title: Products
-    output: true
-    permalink: "/products/:title/"
-  tb_services:
-    title: Tb Services
-    output: false
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: barbers
-  values:
-    avatar: "/assets/img/barber_chandra.jpg"
-    name: Chandra B.
-    title: barber stylist
-    description: I am a barber stylist.
 email: montier.kess@gmail.com
-description: 'Welcome to Taylor’s Barbershop, a hair lounge experience for men, women
-  and kids.
-
-'
-baseurl: ''
-url: ''
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to Taylor’s Barbershop, a hair lounge experience for men, women and kids.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_handle: https://www.google.com/maps/place/Taylor's+Barber+Shop/@37.5451205,-77.4441264,17z/data=!4m7!3m6!1s0x0:0xcae4d79a0139e271!8m2!3d37.5451205!4d-77.4419377!9m1!1b1
 yelp_handle: https://www.yelp.com/biz/taylors-barbershop-richmond
 instagram_handle: taylorsbarbershop
 facebook_handle: taylorbarbershoprva
 phone: 804-643-1600
 book_now: tel:{{ site.phone }}
+taylors_job_application: https://taylorsbarbershop.typeform.com/to/fo60ho
+
+# Build settings
 markdown: kramdown
 theme: minima
 gems:
-- jekyll-feed
+  - jekyll-feed
 exclude:
-- Gemfile
-- Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
+
+# Setup Collections
+collections:
+  products:
+    output: true
+    permalink: /products/:title/
+
+  docs:
+    output: false
+
+  tb_services:
+    output: false
+
+  barbers:
+    output: false
+
+  careers:
+    output: false
+
+  faqs:
+    output: false
+
+# Default Settings for Collections
+defaults:
+  -
+    scope:
+      path: ""
+      type: "barbers" # a collection in your site, in plural form
+    values:
+      avatar: /assets/img/barber_chandra.jpg
+      name: Chandra B.
+      title: barber stylist
+      description: I am a barber stylist.
+
+  -
+    scope:
+      path: ""
+      type: "careers" # a collection in your site, in plural form
+    values:
+      career_title: master barber
+
+  -
+    scope:
+      path: ""
+      type: "faqs" # a collection in your site, in plural form
+    values:
+      faqs_title: Are children welcomed in Taylor's Barbershop if they are not getting a hair cut?
+      faqs_text: Yes, children at least 2 years of age and older are welcomed and serviced in the barbershop.

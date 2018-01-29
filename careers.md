@@ -1,9 +1,10 @@
 ---
-title: Taylor's Careers
-permalink: "/careers/"
 layout: fullpage
-'["//"]': 
-bg_header: "/assets/img/header_careers.jpg"
+title: Taylor's Careers
+permalink: /careers/
+
+[//]: #Header
+bg_header: /assets/img/header_careers.jpg
 ---
 
 <div class="fullpage_wrapper">
@@ -22,7 +23,7 @@ bg_header: "/assets/img/header_careers.jpg"
                 <div class="career_title">
                     {{ item.career_title }}
                 </div>
-                <a class="brown_cta" href="https://taylorsbarbershop.typeform.com/to/fo60ho" target="_blank">
+                <a class="brown_cta" href="{{ site.taylors_job_application }}" target="_blank">
                     <div>
                         apply now
                     </div>

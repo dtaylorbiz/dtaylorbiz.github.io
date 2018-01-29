@@ -22,67 +22,67 @@
                 </p>
             </div>
 
-            <section class="accordion_wrapper">
+            <section class="docs-accordion_wrapper">
 
 
-                        <div class="accordion-group">
-                            <div class="accordion_title">home</div>
+                        <div class="docs-accordion-group">
+                            <div class="docs-accordion_title">home</div>
                             {% assign docs-category = site.docs | where:"docs-category","home" %}
-                            <section class="accordion">
+                            <section class="docs-accordion">
                             {% for item in docs-category %}
-                                {% include components/accordion-item.html %}
+                                {% include components/docs-accordion-item.html %}
                             {% endfor %}
                             </section>
                         </div>
 
-                        <div class="accordion-group">
-                            <div class="accordion_title">
+                        <div class="docs-accordion-group">
+                            <div class="docs-accordion_title">
 
                             social</div>
                             {% assign docs-category = site.docs | where:"docs-category","social" %}
                             {% for item in docs-category %}
-                                {% include components/accordion-item.html %}
+                                {% include components/docs-accordion-item.html %}
                             {% endfor %}
                         </div>
 
 
-                        <div class="accordion-group">
-                            <div class="accordion_title">
+                        <div class="docs-accordion-group">
+                            <div class="docs-accordion_title">
 
                             services pages</div>
                             {% assign docs-category = site.docs | where:"docs-category","services" %}
                             {% for item in docs-category %}
-                                {% include components/accordion-item.html %}
+                                {% include components/docs-accordion-item.html %}
                             {% endfor %}
                         </div>
 
-                        <div class="accordion-group">
-                            <div class="accordion_title">
+                        <div class="docs-accordion-group">
+                            <div class="docs-accordion_title">
 
                             Taylor's Story</div>
                             {% assign docs-category = site.docs | where:"docs-category","taylors-story" %}
                             {% for item in docs-category %}
-                                {% include components/accordion-item.html %}
+                                {% include components/docs-accordion-item.html %}
                             {% endfor %}
                         </div>
 
-                        <div class="accordion-group">
-                            <div class="accordion_title">
+                        <div class="docs-accordion-group">
+                            <div class="docs-accordion_title">
 
                             careers</div>
                             {% assign docs-category = site.docs | where:"docs-category","careers" %}
                             {% for item in docs-category %}
-                                {% include components/accordion-item.html %}
+                                {% include components/docs-accordion-item.html %}
                             {% endfor %}
                         </div>
 
-                        <div class="accordion-group">
-                            <div class="accordion_title">
+                        <div class="docs-accordion-group">
+                            <div class="docs-accordion_title">
 
                             faqs</div>
                             {% assign docs-category = site.docs | where:"docs-category","faqs" %}
                             {% for item in docs-category %}
-                                {% include components/accordion-item.html %}
+                                {% include components/docs-accordion-item.html %}
                             {% endfor %}
                         </div>
 

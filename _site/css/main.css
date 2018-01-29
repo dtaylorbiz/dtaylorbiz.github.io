@@ -369,7 +369,7 @@ body {
   .accordion-item.active .icon {
     background: #fefefe; }
     .accordion-item.active .icon:before {
-      background: #9ed195; }
+      background: #92b7af; }
     .accordion-item.active .icon:after {
       width: 0; }
   .accordion-item .heading {
@@ -1073,33 +1073,33 @@ REUSABLE CLASSES
       .docs_masthead p a:hover {
         color: #927238; }
 
-.accordion_wrapper {
+.docs-accordion_wrapper {
   margin-top: 150px; }
-  .accordion_wrapper .accordion_title {
+  .docs-accordion_wrapper .docs-accordion_title {
     font-size: 28px;
     margin-bottom: 10px;
     text-transform: uppercase;
     font-weight: bold;
     font-family: Helvetica Neue, Helvetica, sans-serif; }
-  .accordion_wrapper .accordion-group {
+  .docs-accordion_wrapper .docs-accordion-group {
     margin-bottom: 75px; }
 
-.accordion {
+.docs-accordion {
   width: 100%;
   max-width: 75rem;
   margin: 0 auto; }
 
-.accordion-item {
+.docs-accordion-item {
   position: relative; }
-  .accordion-item.active .heading {
+  .docs-accordion-item.active .heading {
     color: #fff; }
-  .accordion-item.active .icon {
+  .docs-accordion-item.active .docs-icon {
     background: #fefefe; }
-    .accordion-item.active .icon:before {
-      background: #b9adb0; }
-    .accordion-item.active .icon:after {
+    .docs-accordion-item.active .docs-icon:before {
+      background: #c2d694; }
+    .docs-accordion-item.active .docs-icon:after {
       width: 0; }
-  .accordion-item .heading {
+  .docs-accordion-item .docs-heading {
     display: block;
     text-transform: initial;
     text-decoration: none;
@@ -1111,16 +1111,16 @@ REUSABLE CLASSES
     padding: 1.5rem 0.5rem 1.5rem 3.5rem;
     transition: 0.3s ease-in-out; }
     @media screen and (min-width: 550px) {
-      .accordion-item .heading {
+      .docs-accordion-item .docs-heading {
         font-size: 22px; } }
     @media screen and (min-width: 1440px) {
-      .accordion-item .heading {
+      .docs-accordion-item .docs-heading {
         font-size: 24px; } }
-    .accordion-item .heading:hover {
+    .docs-accordion-item .docs-heading:hover {
       color: #927238; }
-      .accordion-item .heading:hover .icon:before, .accordion-item .heading:hover .icon:after {
+      .docs-accordion-item .docs-heading:hover .docs-icon:before, .docs-accordion-item .docs-heading:hover .docs-icon:after {
         background: #927238; }
-  .accordion-item .title {
+  .docs-accordion-item .docs-title {
     margin-left: 20px;
     color: #000;
     text-decoration: none;
@@ -1128,7 +1128,7 @@ REUSABLE CLASSES
     font-weight: 300;
     font-size: 24px;
     font-family: Helvetica Neue, Helvetica, sans-serif; }
-  .accordion-item .content {
+  .docs-accordion-item .docs-content {
     display: none;
     text-transform: initial;
     font-weight: 300;
@@ -1137,28 +1137,28 @@ REUSABLE CLASSES
     margin-top: 20px;
     font-family: Helvetica Neue, Helvetica, sans-serif; }
     @media screen and (min-width: 768px) {
-      .accordion-item .content {
+      .docs-accordion-item .docs-content {
         margin-left: 5em; } }
-    .accordion-item .content p {
+    .docs-accordion-item .docs-content p {
       margin-top: 0;
       font-size: 16px;
       line-height: 1.4;
       color: #000; }
       @media screen and (min-width: 550px) {
-        .accordion-item .content p {
+        .docs-accordion-item .docs-content p {
           font-size: 18px; } }
       @media screen and (min-width: 900px) {
-        .accordion-item .content p {
+        .docs-accordion-item .docs-content p {
           font-size: 22px; } }
       @media screen and (min-width: 1440px) {
-        .accordion-item .content p {
+        .docs-accordion-item .docs-content p {
           font-size: 24px; } }
-      .accordion-item .content p img {
+      .docs-accordion-item .docs-content p img {
         width: 100%; }
     @media screen and (min-width: 900px) {
-      .accordion-item .content {
+      .docs-accordion-item .docs-content {
         line-height: 1.75; } }
-  .accordion-item .icon {
+  .docs-accordion-item .docs-icon {
     display: block;
     position: absolute;
     top: 50%;
@@ -1168,7 +1168,7 @@ REUSABLE CLASSES
     border: 2px solid #000;
     border-radius: 30px;
     transform: translateY(-50%); }
-    .accordion-item .icon:before, .accordion-item .icon:after {
+    .docs-accordion-item .docs-icon:before, .docs-accordion-item .docs-icon:after {
       content: '';
       width: .75rem;
       height: 0.15rem;
@@ -1179,7 +1179,7 @@ REUSABLE CLASSES
       top: 50%;
       transition: 0.3s ease-in-out;
       transform: translate(-50%, -50%); }
-    .accordion-item .icon:after {
+    .docs-accordion-item .docs-icon:after {
       transform: translate(-50%, -50%) rotate(90deg);
       z-index: -1; }
 

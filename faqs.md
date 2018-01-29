@@ -1,8 +1,8 @@
 ---
-title: Taylor's FAQs
-permalink: "/faqs/"
 layout: fullpage
-bg_header: "/assets/img/fullpage-header.jpg"
+title: Taylor's FAQs
+permalink: /faqs/
+bg_header: /assets/img/fullpage-header.jpg
 ---
 
 {%  include components/beta_header.html
@@ -13,7 +13,7 @@ bg_header: "/assets/img/fullpage-header.jpg"
 <section class="fullpage_wrapper">
     <section class="accordion">
 
-        {% for item in site.data.faqs %}
+        {% for item in site.faqs %}
         <div class="accordion-item potato">
             <a href="#" class="heading">
                 <div class="icon"></div>
