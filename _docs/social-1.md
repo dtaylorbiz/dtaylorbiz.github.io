@@ -1,7 +1,9 @@
 ---
+title: Social 1
 docs-question: To update social media handles in footer
 docs-category: social
 ---
+
 In siteleaf panel, select Settings.  Find your variables for social media handles.  
 
 Variables are:

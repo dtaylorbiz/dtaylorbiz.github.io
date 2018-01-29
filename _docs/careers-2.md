@@ -1,7 +1,9 @@
 ---
+title: Careers 2
 docs-question: To edit the job application
 docs-category: careers
 ---
+
 In siteleaf panel, select Settings.  Look for this variable:
 + taylors_job_application
 
