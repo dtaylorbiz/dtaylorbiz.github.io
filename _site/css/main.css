@@ -1,4 +1,4 @@
-.site-menu ul li a:hover, .overlay ul li a:hover {
+.phone:hover, .site-menu ul li a:hover, .overlay ul li a:hover {
   color: #927238;
   border-bottom: 1px solid; }
 
@@ -167,7 +167,8 @@ body {
   .services_section ul li {
     font-size: 22px;
     padding-bottom: 25px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    width: 100%; }
     @media screen and (min-width: 768px) {
       .services_section ul li {
         width: 45%;
@@ -369,7 +370,7 @@ body {
   .accordion-item.active .icon {
     background: #fefefe; }
     .accordion-item.active .icon:before {
-      background: #c9a1d5; }
+      background: #8cbdd1; }
     .accordion-item.active .icon:after {
       width: 0; }
   .accordion-item .heading {
@@ -454,6 +455,10 @@ body {
   .gallery-demo img {
     height: 385px; } }
 
+.phone {
+  color: #000;
+  text-decoration: none; }
+
 .lookbook_video {
   width: 100%; }
   @media screen and (min-width: 768px) {
@@ -500,7 +505,7 @@ body {
 .gallery_img {
   padding-bottom: 15px; }
 
-.site-menu ul li a:hover, .overlay ul li a:hover {
+.phone:hover, .site-menu ul li a:hover, .overlay ul li a:hover {
   color: #927238;
   border-bottom: 1px solid; }
 
@@ -694,14 +699,9 @@ body {
 .menuButton {
   background: transparent !important;
   border: none !important;
-  color: #000 !important;
-  font-size: 48px !important;
   height: 100% !important;
   position: relative !important;
-  width: 100% !important;
-  margin-top: -12px;
-  font-weight: lighter;
-  -webkit-font-smoothing: antialiased; }
+  width: 100% !important; }
 
 .menuButton:active {
   position: relative;
@@ -1096,7 +1096,7 @@ REUSABLE CLASSES
   .docs-accordion-item.active .docs-icon {
     background: #fefefe; }
     .docs-accordion-item.active .docs-icon:before {
-      background: #d2aeaf; }
+      background: #d0c996; }
     .docs-accordion-item.active .docs-icon:after {
       width: 0; }
   .docs-accordion-item .docs-heading {
