@@ -1,8 +1,8 @@
 ---
-layout: fullpage
 title: Taylor's FAQs
-permalink: /faqs/
-bg_header: /assets/img/fullpage-header.jpg
+permalink: "/faqs/"
+layout: fullpage
+bg_header: "/assets/img/fullpage-header.jpg"
 ---
 
 {%  include components/beta_header.html
