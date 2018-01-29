@@ -1,9 +1,10 @@
 ---
-title: Taylor's Careers
-permalink: "/careers/"
 layout: fullpage
-'["//"]': 
-bg_header: "/assets/img/header_careers.jpg"
+title: Taylor's Careers
+permalink: /careers/
+
+[//]: #Header
+bg_header: /assets/img/header_careers.jpg
 ---
 
 <div class="fullpage_wrapper">

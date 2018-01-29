@@ -1,11 +1,11 @@
 ---
-title: Taylor's Services
-permalink: "/services/"
 layout: fullpage
-'["//"]': 
-bg_header: "/assets/img/fullpage-header.jpg"
----
+title: Taylor's Services
+permalink: /services/
 
+[//]: #Header
+bg_header: /assets/img/fullpage-header.jpg
+---    
 <div class="fullpage_wrapper">
     {%  include components/alpha_header.html
         alpha_header="A full service hair lounge for men, women &amp; kids"
@@ -31,11 +31,11 @@ bg_header: "/assets/img/fullpage-header.jpg"
 
             <ul class="potato">
                 <div class="frow justify-between">
-                    {% for item in site.data.services_barbering %}
+                    {% for item in site.services %}
                     <li>
-                        {{ item.service }}
+                        {{ item.title }}
                         <div>
-                            {{ item.description }}
+                            {{ item.price }}
                         </div>
                     </li>
                     {% endfor %}
