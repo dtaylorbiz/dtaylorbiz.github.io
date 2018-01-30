@@ -52,7 +52,7 @@ defaults:
     values:
       avatar: /assets/img/barber_chandra.jpg
       name: Chandra B.
-      title: barber stylist
+      position: barber stylist
       description: I am a barber stylist.
 
   -
