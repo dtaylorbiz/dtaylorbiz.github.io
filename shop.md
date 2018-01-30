@@ -1,9 +1,10 @@
 ---
-title: Taylor's Shop
-permalink: "/shop/"
 layout: fullpage
-'["//"]': 
-bg_header: "/assets/img/fullpage-header.jpg"
+title: Taylor's Shop
+permalink: /shop/
+
+[//]: #Header
+bg_header: /assets/img/fullpage-header.jpg
 ---
 
 <div class="fullpage_wrapper">
