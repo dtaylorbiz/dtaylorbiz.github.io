@@ -1,6 +1,6 @@
 ---
 title: Taylor's Barbershop
-timezone: UTC
+timezone: America/New_York
 collections:
   barbers:
     title: Barbers
@@ -60,8 +60,8 @@ description: 'Welcome to Taylor’s Barbershop, a hair lounge experience for men
   and kids.
 
 '
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 google_handle: https://www.google.com/maps/place/Taylor's+Barber+Shop/@37.5451205,-77.4441264,17z/data=!4m7!3m6!1s0x0:0xcae4d79a0139e271!8m2!3d37.5451205!4d-77.4419377!9m1!1b1
 yelp_handle: https://www.yelp.com/biz/taylors-barbershop-richmond
 instagram_handle: taylorsbarbershop
