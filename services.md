@@ -1,11 +1,11 @@
 ---
-layout: fullpage
 title: Taylor's Services
-permalink: /services/
+permalink: "/services/"
+layout: fullpage
+'["//"]': 
+bg_header: "/assets/img/fullpage-header.jpg"
+---
 
-[//]: #Header
-bg_header: /assets/img/fullpage-header.jpg
----    
 <div class="fullpage_wrapper">
     {%  include components/alpha_header.html
         alpha_header="A full service hair lounge for men, women &amp; kids"
