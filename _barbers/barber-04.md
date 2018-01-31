@@ -1,7 +1,8 @@
 ---
 title: Kevin
-avatar: /assets/img/barber_dmontae.jpg
+avatar: "/assets/img/barber_dmontae.jpg"
 name: Kevin L.
-team_position: barber 
+team_position: barber
 ---
+
 Coming soon

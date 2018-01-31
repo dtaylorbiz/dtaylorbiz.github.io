@@ -1,7 +1,9 @@
 ---
+title: Faqs 1
 docs-question: To add a frequently asked question
 docs-category: faqs
 ---
+
 In siteleaf panel, select FAQs.  Select Add new faq.  Update these variables.
 
     + title (Ex: faqs-5 )
