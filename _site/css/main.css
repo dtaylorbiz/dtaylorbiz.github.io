@@ -370,7 +370,7 @@ body {
   .accordion-item.active .icon {
     background: #fefefe; }
     .accordion-item.active .icon:before {
-      background: #ae9d8c; }
+      background: #bf9fd1; }
     .accordion-item.active .icon:after {
       width: 0; }
   .accordion-item .heading {
@@ -1096,7 +1096,7 @@ REUSABLE CLASSES
   .docs-accordion-item.active .docs-icon {
     background: #fefefe; }
     .docs-accordion-item.active .docs-icon:before {
-      background: #cb8ed1; }
+      background: #959cd6; }
     .docs-accordion-item.active .docs-icon:after {
       width: 0; }
   .docs-accordion-item .docs-heading {
