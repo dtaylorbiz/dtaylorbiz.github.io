@@ -1,6 +1,6 @@
 ---
 title: Shomari
-avatar: "/assets/img/barber_empty.jpg"
+avatar: "/assets/img/barber_shomari.jpg"
 name: Shomari F.
 team_position: barber
 ---
