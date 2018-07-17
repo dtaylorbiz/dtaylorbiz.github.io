@@ -1,6 +1,6 @@
 ---
 title: Jessica
-avatar: "/assets/img/barber_empty.jpg"
+avatar: "/assets/img/barber_jessica.jpg"
 name: Jessica S.
 team_position: barber
 ---
