@@ -52,13 +52,15 @@ REUSABLE CLASSES
 
 // Full Page Header
 .fullpage-header {
-
 	background-size: cover;
 	background-position: center center;
 	color: $white;
 	padding: 45px 0;
 	font-size: 24px;
 	margin-bottom: 50px;
+	/*-webkit-filter: brightness (250%);
+	-moz-filter: brightness (250%);
+	filter: brightness (250%);*/
 
 	@include small {
 		padding: 70px 0;

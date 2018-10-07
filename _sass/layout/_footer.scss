@@ -3,7 +3,10 @@
     font-weight: bold;
     line-height: 1.2;
     text-transform: uppercase;
-    width: 140px;
+    
+    @include tablet {
+        width: 140px;
+    }
 
     @include laptop {
         padding-left: 15px;

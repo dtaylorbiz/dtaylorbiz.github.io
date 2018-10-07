@@ -1,5 +1,7 @@
 ---
 title: Taylor's FAQs
+description: Frequently asked questions are listed.  We make sure our barbershop is a warm and inviting space for everyone.
+keywords: children barbershop, women barbershop, barbering, Richmond barbers, Richmond barbershop, Taylor's Barbershop
 permalink: "/faqs/"
 layout: fullpage
 bg_header: "/assets/img/fullpage-header.jpg"

@@ -39,7 +39,8 @@ body {
   text-align: center; }
   @media screen and (min-width: 1200px) {
     .alpha_header_section {
-      margin-top: 125px; } }
+      margin-top: 125px;
+      margin-bottom: 100px; } }
   .alpha_header_section .alpha_header {
     font-family: "Playfair Display", sans-serif;
     font-size: 20px;
@@ -361,7 +362,7 @@ body {
 .accordion {
   width: 100%;
   max-width: 75rem;
-  margin: 0 auto; }
+  margin: 0 auto 75px; }
 
 .accordion-item {
   position: relative; }
@@ -370,7 +371,7 @@ body {
   .accordion-item.active .icon {
     background: #fefefe; }
     .accordion-item.active .icon:before {
-      background: #af9aac; }
+      background: #ce98ca; }
     .accordion-item.active .icon:after {
       width: 0; }
   .accordion-item .heading {
@@ -505,6 +506,9 @@ body {
 .gallery_img {
   padding-bottom: 15px; }
 
+.lightbox_wrapper {
+  margin-bottom: 125px; }
+
 .phone:hover, .site-menu ul li a:hover, .overlay ul li a:hover {
   color: #927238;
   border-bottom: 1px solid; }
@@ -518,8 +522,10 @@ body {
   font-size: 16px;
   font-weight: bold;
   line-height: 1.2;
-  text-transform: uppercase;
-  width: 140px; }
+  text-transform: uppercase; }
+  @media screen and (min-width: 768px) {
+    .logo-text {
+      width: 140px; } }
   @media screen and (min-width: 900px) {
     .logo-text {
       padding-left: 15px; } }
@@ -839,7 +845,10 @@ REUSABLE CLASSES
   color: #fff;
   padding: 45px 0;
   font-size: 24px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  /*-webkit-filter: brightness (250%);
+  -moz-filter: brightness (250%);
+  filter: brightness (250%);*/ }
   @media screen and (min-width: 375px) {
     .fullpage-header {
       padding: 70px 0; } }
@@ -1096,7 +1105,7 @@ REUSABLE CLASSES
   .docs-accordion-item.active .docs-icon {
     background: #fefefe; }
     .docs-accordion-item.active .docs-icon:before {
-      background: #c9bc92; }
+      background: #ccce94; }
     .docs-accordion-item.active .docs-icon:after {
       width: 0; }
   .docs-accordion-item .docs-heading {

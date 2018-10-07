@@ -3,16 +3,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="author" content="Montier Kess" />
-    <meta name="portfolio" content="http://www.taylorsbarbershop.com" />
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="keywords" content="barbershop,mens grooming,grooming,hair cuts,facials,taylors cuts,braids,towel shave,beard trim,taylors kids cuts,mens hair coloring,shampoo,deep conditioning" />
+    <title>{% if page.title %}{{ page.title }} - Taylor's Barbershop {% else %}{{ site.title }}{% endif %}</title>
+    <meta name="developer" content="Montier Kess" />
+    <meta name="portfolio" content="http://www.svncrwns.com" />
+    <meta name="keywords" content="{% if page.keywords %} {{ page.keywords }} {% else%} {{ site.keywords }} {% endif %}" />
     <meta charset="utf-8" />
 
     <!-- Meta OG Tags -->
-    <meta name="og:title" content="Taylor's Barbershop">
-    <meta name="og:title" content="A barbershop experience for men, women and kids">
+    <meta name="og:title" content="Taylor's Barbershop - {{ page.title }}">
+    <meta name="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="http://www.taylorsbarbershop.com" />
     <meta property="og:image" content="/og-img.jpg" />
 
@@ -21,7 +20,7 @@
     <meta name="twitter:creator" content="@taylorsbarbershop" />
     <meta property="twitter:site" content="http://www.taylorsbarbershop.com" />
 
-    <link rel="shortcut icon" href="/crwn.png" type="image/png">
+    <link rel="shortcut icon" href="/fav_logo2.png" type="image/png">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">

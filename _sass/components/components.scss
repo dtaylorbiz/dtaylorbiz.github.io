@@ -28,6 +28,7 @@ $primary-dark: mix(#000000, $primary, 25%);
 
     @include desktop {
         margin-top: 125px;
+        margin-bottom: 100px;
     }
 
     .alpha_header {
@@ -469,7 +470,7 @@ $primary-dark: mix(#000000, $primary, 25%);
 .accordion {
     width: 100%;
     max-width: 75rem;
-    margin: 0 auto;
+    margin: 0 auto 75px;
 }
 
 .accordion-item {

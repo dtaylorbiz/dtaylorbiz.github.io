@@ -1,15 +1,17 @@
 ---
 title: Taylor's Careers
+description: Taylor's Barbershop has several open positions.  Opportunities to be a barber, barbering stylist, shop manager and more.
+keywords: barbering apprentice, barber careers, barber experience, barbering, beard, kids barber, womens barber, shape up, trim, hair color
 permalink: "/careers/"
 layout: fullpage
 '["//"]': 
-bg_header: "/assets/img/header_careers.jpg"
+bg_header: "/assets/img/header_careers2.jpg"
 ---
 
 <div class="fullpage_wrapper">
     {%  include components/alpha_header.html
         alpha_header="Careers, We're Hiring"
-        alpha_copy="Taylor’s Barberhops are unique, sleek, upbeat and innovative to give you a feel of comfort, fun and relaxation."
+        alpha_copy="Taylor’s Barbershop is a unique, sleek, upbeat and innovative barbershop space to give you a feel of comfort, fun and relaxation."
     %}
 
     <!-- Careers Section -->
