@@ -1,7 +1,7 @@
 ---
 title: Jessica
 avatar: "/assets/img/barber_jessica.jpg"
-name: Jessica S.
+name: Jessica M.
 team_position: barber
 ---
 
