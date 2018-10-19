@@ -71,7 +71,7 @@ taylors_job_application: https://taylorsbarbershop.typeform.com/to/fo60ho
 keywords: barbershop,mens grooming,grooming,hair cuts,facials,taylors cuts,braids,towel shave,beard trim,taylors kids cuts,mens hair coloring,shampoo,deep conditioning
 markdown: kramdown
 theme: minima
-gems:
+plugins:
 - jekyll-feed
 exclude:
 - Gemfile
