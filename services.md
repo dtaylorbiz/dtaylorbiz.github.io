@@ -1,8 +1,9 @@
 ---
 title: Taylor's Services
-description: Taylor's Barbering Services + Barbers - Call to make an appointment 804-643-1600
-keywords: richmond hair cut, taylors barbershop, taylors hair cut, hot towel shave, beard, beard edge, trim, hair color, shampoo
 permalink: "/services/"
+description: Taylor's Barbering Services + Barbers - Call to make an appointment 804-643-1600
+keywords: richmond hair cut, taylors barbershop, taylors hair cut, hot towel shave,
+  beard, beard edge, trim, hair color, shampoo
 layout: fullpage
 '["//"]': 
 bg_header: "/assets/img/fullpage-header.jpg"

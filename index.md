@@ -1,7 +1,9 @@
 ---
 title: Home
-description: Taylor's Barbershop - A barbering experience for men, women and kids in Richmond, Virginia
-keywords: barbershop appointment, taylors broad street, richmond, barbers, hair cut, hair lounge, kids haircut, women styles, buzz cut
+description: Taylor's Barbershop - A barbering experience for men, women and kids
+  in Richmond, Virginia
+keywords: barbershop appointment, taylors broad street, richmond, barbers, hair cut,
+  hair lounge, kids haircut, women styles, buzz cut
 layout: primary
 '["//"]': 
 slide1: "/assets/img/taylors-home-1-v2.jpg"
