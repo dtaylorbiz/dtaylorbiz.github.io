@@ -1,8 +1,8 @@
 ---
-title: Jessica
-avatar: "/assets/img/barber_jessica.jpg"
-name: Jessica S.
+title: Theron
+avatar: "/assets/img/barber_theron.jpg"
+name: Theron
 team_position: barber
 ---
 
-Jessica’s hair journey began in 2011 in rural Virginia. She strives for excellence in unisex grooming with specialization in color, styling, and hair cutting for a widely multicultural client base
+Licensed since 2004. I enjoy working with my hands and helping others look their best.

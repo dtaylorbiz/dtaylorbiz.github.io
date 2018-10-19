@@ -1,8 +1,8 @@
 ---
-title: Shawn
-avatar: "/assets/img/barber_shawn.jpg"
-name: Shawn X.
+title: Jessica
+avatar: "/assets/img/barber_jessica.jpg"
+name: Jessica S.
 team_position: barber
 ---
 
-Dual licensed cosmetologist and barber. Focused on providing grooming services for multicultural clients.
+Jessica’s hair journey began in 2011 in rural Virginia. She strives for excellence in unisex grooming with specialization in color, styling, and hair cutting for a widely multicultural client base
