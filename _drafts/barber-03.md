@@ -1,5 +1,6 @@
 ---
 title: DMontae
+date: 2018-10-19 01:43:41.864000000 Z
 avatar: "/assets/img/barber_noname.jpg"
 name: D'Montae J.
 team_position: Apprentice
