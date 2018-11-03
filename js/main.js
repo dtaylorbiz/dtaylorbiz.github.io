@@ -92,7 +92,7 @@ $(document).ready(function(){
 		autoplay: true,
 		dots: false,
 		arrows: false,
-		autoplaySpeed: 4000,
+		autoplaySpeed: 1500,
 		fade: true,
 		cssEase: 'linear'
 	});
