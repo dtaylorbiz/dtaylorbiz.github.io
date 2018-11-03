@@ -97,4 +97,4 @@ $(document).ready(function(){
 		cssEase: 'linear'
 	});
 
-}); // Close of jQuery
+}); // Close of jQuery end
