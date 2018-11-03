@@ -6,7 +6,7 @@ keywords: barbershop appointment, taylors broad street, richmond, barbers, hair 
   hair lounge, kids haircut, women styles, buzz cut
 layout: primary
 '["//"]': 
-slide1: "yes"
+slide1: 'yes'
 slider:
 - slide: "/assets/img/taylors-home-1-v2.jpg"
 - slide: "/assets/img/taylors-home-2-v2.jpg"
